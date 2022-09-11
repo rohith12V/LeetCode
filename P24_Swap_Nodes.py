@@ -73,7 +73,7 @@ class Solution:
             #              |______________________|
             current.next = previous.next.next
 
-            # -1 (prev)   1 ( current ) <--- 2 --> 3 ---> 4
+            # -1 (prev)   1 ( current ) <--- 2    3 ---> 4
             #       |______|________________|     |
             #              |______________________|
             previous.next.next = current
